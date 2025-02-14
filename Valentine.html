@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day Love</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://loveandspecs.com/wp-content/uploads/2015/03/valentines-day-desktop-background-hearts.png') no-repeat center center fixed;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            background-size: cover;
+        }
+        .header {
+            font-size: 50px;
+            color: #d00050;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-top: 80px;
+        }
+        .text-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            width: 50%;
+        }
+        .text-box p {
+            font-size: 24px;
+            color: #d00050;
+            font-weight: bold;
+            margin: 0;
+        }
+        .text-box .small-text {
+            font-size: 16px;
+            color: #a00040;
+            margin-top: 10px;
+        }
+        .our-story-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 30vh;
+            padding: 20px;
+        }
+        .our-story {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 60%;
+            text-align: center;
+        }
+        .our-story p {
+            font-size: 18px;
+            color: #d00050;
+            margin-top: 15px;
+        }
+        .valentine-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #d00050;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .valentine-button:hover {
+            background-color: #a00040;
+            transform: scale(1);
+        }
+    </style>
+    <script>
+        function changeButtonText(button) {
+            button.innerText = "I SOUL YOU FOREVER SUSHI ❤️";
+        }
+    </script>
+</head>
+<body>
+    <div class="header">Happy Valentine's Day Love ❤️</div>
+    <div class="text-box">
+        <p>I Promise to be by your side</p>
+        <p class="small-text">or under you... or on top of you...</p>
+    </div>
+    <div class="our-story-container" id="our-story">
+        <div class="our-story">
+            <p>Back to 2018, when started as strangers to best friends, having crazy amount of food together, to going radio silent for almost two years,  we came back stronger than ever. All I know is we will on one hell of a ride together with love, laugher, and peace.❤️</p>
+            <button class="valentine-button" onclick="changeButtonText(this)">Will you be my Valentine for this year and the next zillion years to come? ❤️</button>
+        </div>
+    </div>
+</body>
+</html>
